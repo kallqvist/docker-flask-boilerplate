@@ -8,6 +8,7 @@ Just how I like to start my docker/flask-projects.
 
 ```
 # For dev env
+docker-compose build
 docker-compose run --rm --service-ports api bash
 > python run.py
 ```
