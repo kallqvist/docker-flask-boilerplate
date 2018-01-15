@@ -11,4 +11,6 @@ Just how I like to start my docker/flask-projects.
 docker-compose build
 docker-compose run --rm --service-ports api bash
 > python run.py
+
+# Reach server at http://127.0.0.1:5000/
 ```
