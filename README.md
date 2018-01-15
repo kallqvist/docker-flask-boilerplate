@@ -13,4 +13,5 @@ docker-compose run --rm --service-ports api bash
 > python run.py
 
 # Reach server at http://127.0.0.1:5000/
+# Changes in requirements.txt or setup.py will require a new docker-compose build
 ```
